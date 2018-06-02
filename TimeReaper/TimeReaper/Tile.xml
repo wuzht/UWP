@@ -1,0 +1,53 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<tile>
+  <visual branding="name" displayName="TimeReaper">
+
+    <binding template="TileSmall" >
+      <image placement="background" src="Assets/background.png" />
+      <!--0-->
+      <text hint-style="caption" hint-align="left"></text>
+      <!--1-->
+      <text hint-style="captionsubtle" hint-align="left" hint-wrap="true"></text>
+    </binding>
+
+    <binding template="TileMedium">
+      <image placement="background" src="Assets/background.png"/>
+      <group>
+        <subgroup>
+          <!--2-->
+          <text hint-style="caption" hint-align="left">1</text>
+          <!--3-->
+          <text hint-style="captionsubtle" hint-align="left" hint-wrap="true"></text>
+          <!--4-->
+          <text hint-style="captionsubtle" hint-align="left" hint-wrap="true"></text>
+        </subgroup>
+      </group>
+    </binding>
+
+    <binding template="TileWide">
+      <image placement="background" src="Assets/background.png"/>
+      <group>
+        <subgroup>
+          <!--5-->
+          <text hint-style="caption" hint-align="left"></text>
+          <!--6-->
+          <text hint-style="captionsubtle" hint-align="left" hint-wrap="true"></text>
+          <!--7-->
+          <text hint-style="captionsubtle" hint-align="left" hint-wrap="true"></text>
+        </subgroup>
+      </group>
+    </binding>
+
+    <binding template="TileLarge">
+      <image src="Assets/background.png" placement="background"/>
+      <!--8-->
+      <text hint-style="caption" hint-align="left"></text>
+      <!--9-->
+      <text hint-style="captionsubtle" hint-align="left" hint-wrap="true"></text>
+      <!--10-->
+      <text hint-style="captionsubtle" hint-align="left" hint-wrap="true"></text>
+    </binding>
+
+  </visual>
+</tile>
+
